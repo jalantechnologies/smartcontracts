@@ -257,7 +257,7 @@ contract ERC981Token {
     // OPTIONAL - This method can be used to improve usability, but interfaces and other
     // contracts MUST NOT expect these values to be present
     function decimals() public pure returns (uint8 _decimals) {
-        return 6;
+        return 0;
     }
 
     // OPTIONAL - It is recommended that this method is implemented for enhanced usability, but interfaces
